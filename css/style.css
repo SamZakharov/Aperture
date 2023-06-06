@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.eot');
+    src: url('../fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+    url('../fonts/poppins-regular-webfont.woff') format('woff'),
+    url('../fonts/poppins-regular-webfont.ttf') format('truetype'),
+    url('../fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #181818;
+    padding: 24px 0;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 32px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-left: 32px;
+}
+
+header nav ul li:first-of-type {
+    margin-right: 24px;
+}
+
+header nav ul li:last-of-type {
+    margin-left: 31px;
+}
+
+header nav a {
+    font: 15px/20px 'poppinsregular';
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header nav li:first-of-type a {
+    font-size: 13px;
+}
+
+header nav li:last-of-type a {
+    background: #FFFFFF;
+    border-radius: 14px;
+    font-size: 16px;
+    line-height: 20px;
+    /*letter-spacing: 0.4px;*/
+    color: #000000;
+    padding: 11px 20px;
+}
+
+.main_screen {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 71px;
+    background-image: url("../images/IMAGE.jpg");
+    background-size: cover;
+    height: calc(100vh - 83px);
+    box-sizing: border-box;
+}
+
+.main_screen article {
+    max-width: 580px;
+}
+
+.main_screen article h4 {
+    margin-bottom: 1px;
+    font: 14px/20px 'poppinsregular';
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+
+.main_screen article h1 {
+    margin-bottom: 18px;
+    font: 54px/59px 'poppinsregular';
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main_screen article p {
+    font: 15px/20px 'poppinsregular';
+    text-align: center;
+    color: #C0C0C0;
+}
+
+.support {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 108px;
+    background: #000000;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.support_wraper {
+    max-width: 600px;
+}
+
+.support h4 {
+    padding-bottom: 15px;
+    font: 40px/42px 'poppinsregular';
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.support p {
+    padding-bottom: 22px;
+    font: 24px/30px 'poppinsregular';
+    text-align: center;
+    color: #C0C0C0;
+}
+
+.support a {
+    max-width: 154px;
+    padding: 5px 10px 5px 4px;
+    margin: auto;
+    font: 16px/20px 'poppinsregular';
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.support a::before {
+    display: inline-block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-right: 6px;
+}
