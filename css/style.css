@@ -150,7 +150,7 @@ header nav li:last-of-type a {
 .support a::before {
     display: inline-block;
     content: "";
-    width: 32px;
+    width: 33px;
     height: 32px;
     background-color: #000000;
     border-radius: 50%;
