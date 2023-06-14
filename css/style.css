@@ -68,11 +68,12 @@ header nav li:last-of-type a {
     padding: 11px 20px;
 }
 
-.position-relative{
+.position-relative {
     position: relative;
 }
 
-.main_screen {
+
+.main-screen {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -84,11 +85,11 @@ header nav li:last-of-type a {
 
 }
 
-.main_screen article {
+.main-screen article {
     max-width: 580px;
 }
 
-.main_screen article h4 {
+.main-screen article h4 {
     margin-bottom: 1px;
     font: 14px/20px 'poppinsregular';
     text-align: center;
@@ -97,17 +98,144 @@ header nav li:last-of-type a {
     color: #C0C0C0;
 }
 
-.main_screen article h1 {
+.main-screen article h1 {
     margin-bottom: 18px;
     font: 54px/59px 'poppinsregular';
     text-align: center;
     color: #FFFFFF;
 }
 
-.main_screen article p {
+.main-screen article p {
     font: 15px/20px 'poppinsregular';
     text-align: center;
     color: #C0C0C0;
+}
+
+.our-works-wrapper {
+    background: #000000;
+    border-radius: 0;
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+
+.our-works-title h3 {
+    font: 40px/42px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+.our-works-title h4 {
+    font: 23px/30px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #C0C0C0;
+    padding-bottom: 42px;
+}
+
+.our-works-example {
+    max-width: 1168px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+
+.our-works-example article h5 {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.our-works-example article p {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    color: #C0C0C0;
+}
+
+.our-works-example article a {
+    max-width: 154px;
+    padding: 5px 10px 5px 4px;
+    margin: auto;
+    font: 15px/20px 'poppinsregular';
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.our-works-example article a::before {
+    display: inline-block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.card {
+    padding: 0 45px 30px 30px;}
+
+
+.card-padding {
+    margin-bottom: 15px;
+}
+
+/*.qwe-test{*/
+/*    position: absolute;*/
+/*    right: 32px;*/
+/*    bottom: 30px;*/
+/*    left: 30px;*/
+/*}*/
+
+.product-photography {
+    background-image: url("../images/product-photography.jpg");
+    max-width: 576px;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    content: "";
+}
+
+
+.architecture-photography {
+    background-image: url("../images/architecture-photography.jpg");
+    max-width: 576px;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    content: "";
+}
+
+
+.drone-photography {
+    background-image: url("../images/drone-photography.jpg");
+    max-width: 576px;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    content: "";
+}
+
+
+.wildlife-photography {
+    background-image: url("../images/wildlife-photography.jpg");
+    max-width: 576px;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    content: "";
 }
 
 .support {
@@ -228,19 +356,19 @@ header nav li:last-of-type a {
     margin-bottom: 83px;
 }
 
-.clients .flex_block {
+.clients .flex-block {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.clients .flex_block a {
+.clients .flex-block a {
     display: inline-block;
     margin: 0 10px;
     max-width: 128px;
 }
 
-.clients .flex_block a img {
+.clients .flex-block a img {
     display: block;
     width: 100%;
 }
@@ -372,6 +500,7 @@ header nav li:last-of-type a {
     background: #000000;
     border-radius: 11px;
     margin: 11px 6px 11px 0;
+    border: none;
 }
 
 .aperture-licensing-social {
@@ -397,7 +526,7 @@ header nav li:last-of-type a {
     text-decoration: none;
 }
 
-.bottom-icons{
+.bottom-icons {
     display: flex;
     list-style: none;
     position: absolute;
@@ -405,7 +534,7 @@ header nav li:last-of-type a {
     bottom: 40px;
 }
 
-.bottom-icons li{
+.bottom-icons li {
 
     font: 12px/12px 'poppinsregular';
     font-style: normal;
@@ -414,7 +543,7 @@ header nav li:last-of-type a {
     margin-left: 16px;
 }
 
-.bottom-icons li:before{
+.bottom-icons li:before {
     content: "";
     display: inline-block;
     background-image: url("../images/watch-svg.svg");
@@ -425,16 +554,16 @@ header nav li:last-of-type a {
     bottom: -5px;
 }
 
-.bottom-icons li:nth-child(2):before{
+.bottom-icons li:nth-child(2):before {
     background-image: url("../images/photo-svg.svg");
 }
 
-.bottom-icons li:nth-child(3):before{
+.bottom-icons li:nth-child(3):before {
     background-image: url("../images/iso-svg.svg");
     width: 32px;
 }
 
-.bottom-icons li:nth-child(4):before{
+.bottom-icons li:nth-child(4):before {
     background-image: url("../images/location-svg.svg");
     width: 10px;
 }
