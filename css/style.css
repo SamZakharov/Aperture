@@ -185,57 +185,21 @@ header nav li:last-of-type a {
 }
 
 .card {
-    padding: 0 45px 30px 30px;}
+    position: absolute;
+    right: 32px;
+    bottom: 30px;
+    left: 30px;
+}
 
 
 .card-padding {
     margin-bottom: 15px;
 }
 
-/*.qwe-test{*/
-/*    position: absolute;*/
-/*    right: 32px;*/
-/*    bottom: 30px;*/
-/*    left: 30px;*/
-/*}*/
 
-.product-photography {
-    background-image: url("../images/product-photography.jpg");
+.card-wrapper {
     max-width: 576px;
     height: 600px;
-    display: flex;
-    align-items: flex-end;
-    content: "";
-}
-
-
-.architecture-photography {
-    background-image: url("../images/architecture-photography.jpg");
-    max-width: 576px;
-    height: 600px;
-    display: flex;
-    align-items: flex-end;
-    content: "";
-}
-
-
-.drone-photography {
-    background-image: url("../images/drone-photography.jpg");
-    max-width: 576px;
-    height: 600px;
-    display: flex;
-    align-items: flex-end;
-    content: "";
-}
-
-
-.wildlife-photography {
-    background-image: url("../images/wildlife-photography.jpg");
-    max-width: 576px;
-    height: 600px;
-    display: flex;
-    align-items: flex-end;
-    content: "";
 }
 
 .support {
