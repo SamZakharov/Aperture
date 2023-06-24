@@ -72,7 +72,6 @@ header nav li:last-of-type a {
     position: relative;
 }
 
-
 .main-screen {
     display: flex;
     justify-content: center;
@@ -119,18 +118,16 @@ header nav li:last-of-type a {
 }
 
 .our-works-title h3 {
-    font: 40px/42px 'poppinsregular';
+    font: 400 40px/42px 'poppinsregular';
     font-style: normal;
-    font-weight: 400;
     text-align: center;
     color: #FFFFFF;
     padding-bottom: 15px;
 }
 
 .our-works-title h4 {
-    font: 23px/30px 'poppinsregular';
+    font: 400 23px/30px 'poppinsregular';
     font-style: normal;
-    font-weight: 400;
     text-align: center;
     color: #C0C0C0;
     padding-bottom: 42px;
@@ -142,22 +139,19 @@ header nav li:last-of-type a {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-
 }
 
 .our-works-example article h5 {
-    font: 14px/20px 'poppinsregular';
+    font: 400 14px/20px 'poppinsregular';
     font-style: normal;
-    font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 
 .our-works-example article p {
-    font: 14px/20px 'poppinsregular';
+    font: 400 14px/20px 'poppinsregular';
     font-style: normal;
-    font-weight: 400;
     color: #C0C0C0;
 }
 
@@ -359,9 +353,8 @@ header nav li:last-of-type a {
 }
 
 .aperture-about h5 {
-    font: 13px/20px 'poppinsregular';
+    font: 400 13px/20px 'poppinsregular';
     font-style: normal;
-    font-weight: 400;
     color: #C0C0C0;
     padding-top: 20px;
 }
@@ -475,9 +468,8 @@ header nav li:last-of-type a {
 }
 
 .aperture-licensing-social p {
-    font: 14px/20px 'poppinsregular';
+    font: 400 14px/20px 'poppinsregular';
     font-style: normal;
-    font-weight: 400;
     color: #C0C0C0;
 }
 
@@ -500,9 +492,8 @@ header nav li:last-of-type a {
 
 .bottom-icons li {
 
-    font: 12px/12px 'poppinsregular';
+    font: 400 12px/12px 'poppinsregular';
     font-style: normal;
-    font-weight: 400;
     color: #FFFFFF;
     margin-left: 16px;
 }
@@ -530,4 +521,9 @@ header nav li:last-of-type a {
 .bottom-icons li:nth-child(4):before {
     background-image: url("../images/location-svg.svg");
     width: 10px;
+}
+
+.owl-stage{
+    display: flex;
+    align-items: center;
 }

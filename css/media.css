@@ -1,0 +1,500 @@
+@media screen and (max-width: 874px) {
+    header nav ul li {
+        margin-left: 50px;
+    }
+
+    header nav a {
+        font: 12px/17px 'poppinsregular';
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    header nav li:last-of-type a {
+        font-size: 12px;
+    }
+
+    .main-screen article h4 {
+        margin-bottom: 1px;
+        font: 12px/18px 'poppinsregular';
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #C0C0C0;
+    }
+
+    .main-screen article h1 {
+        margin-bottom: 18px;
+        font: 44px/49px 'poppinsregular';
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .main-screen article p {
+        font: 12px/17px 'poppinsregular';
+        text-align: center;
+        color: #C0C0C0;
+    }
+
+    .our-works-title h3 {
+        font: 400 30px/32px 'poppinsregular';
+        font-style: normal;
+        text-align: center;
+        color: #FFFFFF;
+        padding-bottom: 15px;
+    }
+
+    .our-works-title h4 {
+        font: 400 18px/25px 'poppinsregular';
+        font-style: normal;
+        text-align: center;
+        color: #C0C0C0;
+        padding-bottom: 42px;
+    }
+
+    .our-works-example {
+        max-width: 1168px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .owl-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .support-wrapper h4 {
+        padding-bottom: 15px;
+        font: 30px/32px 'poppinsregular';
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .support-wrapper p {
+        padding-bottom: 22px;
+        font: 20px/26px 'poppinsregular';
+        text-align: center;
+        color: #C0C0C0;
+    }
+
+    .support a {
+        max-width: 130px;
+        font: 12px/16px 'poppinsregular';
+        border-radius: 12px;
+    }
+
+    .footer-wrapper {
+        max-width: 799px;
+        margin: auto;
+    }
+}
+
+@media screen  and (max-width: 768px) {
+    header nav ul li {
+        margin-left: 20px;
+    }
+
+    header nav a {
+        font: 12px/17px 'poppinsregular';
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    header nav li:last-of-type a {
+        font-size: 12px;
+    }
+
+    .main-screen {
+        padding-bottom: 100px;
+    }
+
+    .main-screen article h4 {
+        margin-bottom: 1px;
+        font: 12px/18px 'poppinsregular';
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #C0C0C0;
+    }
+
+    .main-screen article h1 {
+        margin-bottom: 18px;
+        font: 44px/49px 'poppinsregular';
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .main-screen article p {
+        font: 12px/17px 'poppinsregular';
+        text-align: center;
+        color: #C0C0C0;
+    }
+
+    .our-works-title h3 {
+        font: 400 30px/32px 'poppinsregular';
+        font-style: normal;
+        text-align: center;
+        color: #FFFFFF;
+        padding-bottom: 15px;
+    }
+
+    .our-works-title h4 {
+        font: 400 18px/25px 'poppinsregular';
+        font-style: normal;
+        text-align: center;
+        color: #C0C0C0;
+        padding-bottom: 42px;
+    }
+
+    .our-works-example {
+        max-width: 1168px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .owl-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .support-wrapper h4 {
+        padding-bottom: 15px;
+        font: 30px/32px 'poppinsregular';
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .support-wrapper p {
+        padding-bottom: 22px;
+        font: 20px/26px 'poppinsregular';
+        text-align: center;
+        color: #C0C0C0;
+    }
+
+    .support a {
+        max-width: 130px;
+        font: 12px/16px 'poppinsregular';
+        border-radius: 12px;
+    }
+
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    .footer-wrapper {
+        max-width: 799px;
+        margin: auto;
+    }
+
+    .aperture-about h5 {
+        font: 400 9px/16px 'poppinsregular';
+        font-style: normal;
+        color: #C0C0C0;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .aperture-about {
+        text-align: center;
+    }
+
+    .aperture-about-wrapper {
+        margin-bottom: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aperture-links-pages {
+        margin-left: 75px;
+    }
+
+    .aperture-links-business-areas {
+        margin-right: 75px;
+    }
+
+    .subscribe-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        padding: 40px;
+
+    }
+
+    .subscribe-text h5 {
+        margin-bottom: 20px;
+    }
+
+    .subscribe-form {
+        width: 258px;
+        height: 52px;
+        background: #F9FAFB;
+        border: 1px solid #E5E7EB;
+        border-radius: 12px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .subscribe-form button {
+        width: 93px;
+    }
+
+    .aperture-licensing-social {
+        display: flex;
+        align-content: flex-end;
+        justify-content: space-between;
+        padding-top: 28px;
+        margin: 0 28px;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 428px) {
+    header .container {
+        padding-left: 22px;
+        padding-right: 10px;
+        justify-content: space-around;
+    }
+
+    header nav ul li {
+        margin-left: 10px;
+    }
+
+    header nav ul li:first-of-type {
+        margin-right: 10px;
+    }
+
+    header nav ul li:last-of-type {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: 21px;
+    }
+
+    .container img{
+        width: 64px;
+    }
+
+    header nav li:first-of-type a {
+        font-size: 10px;
+    }
+
+    header nav li:last-of-type a {
+        background: #FFFFFF;
+        border-radius: 14px;
+        font-size: 11px;
+        line-height: 10px;
+        color: #000000;
+        padding: 6px 15px;
+    }
+
+    .main-screen {
+        padding-bottom: 100px;
+    }
+
+    .main-screen article h4 {
+        margin-bottom: 1px;
+        font: 8px/14px 'poppinsregular';
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #C0C0C0;
+    }
+
+    .main-screen article h1 {
+        margin-bottom: 18px;
+        font: 24px/29px 'poppinsregular';
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .main-screen article p {
+        font: 10px/15px 'poppinsregular';
+        text-align: center;
+        color: #C0C0C0;
+    }
+
+    .our-works-wrapper{
+        max-width: 429px;
+        padding-bottom: 20px;
+    }
+
+    .our-works-title h3 {
+        font: 400 30px/32px 'poppinsregular';
+        font-style: normal;
+        text-align: center;
+        color: #FFFFFF;
+        padding-bottom: 15px;
+    }
+
+    .our-works-title h4 {
+        font: 400 18px/25px 'poppinsregular';
+        font-style: normal;
+        text-align: center;
+        color: #C0C0C0;
+        padding-bottom: 22px;
+    }
+
+    .our-works-example article h5 {
+        font: 400 10px/16px 'poppinsregular';
+        font-style: normal;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .our-works-example article p {
+        font: 400 10px/16px 'poppinsregular';
+        font-style: normal;
+        max-width: 350px;
+        color: #C0C0C0;
+    }
+
+    .our-works-example article a {
+        max-width: 154px;
+        padding: 3px 8px 3px 2px;
+        margin: auto;
+        font: 10px/15px 'poppinsregular';
+        color: #000000;
+        background: #FFFFFF;
+        border-radius: 14px;
+        display: inline-flex;
+        text-decoration: none;
+        align-items: center;
+    }
+
+    .our-works-example article a::before {
+        display: inline-block;
+        content: "";
+        width: 22px;
+        height: 22px;
+        background-color: #000000;
+        border-radius: 50%;
+        margin-right: 6px;
+    }
+
+    .card-wrapper{
+        height: 440px;
+    }
+
+    .card-wrapper img {
+        max-width: 428px;
+    }
+
+    .bottom-icons {
+        display: flex;
+        list-style: none;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .bottom-icons li {
+
+        font: 400 9px/9px 'poppinsregular';
+        font-style: normal;
+        color: #FFFFFF;
+        margin-left: 16px;
+    }
+
+    .support{
+        padding-top: 110px;
+        padding-bottom: 98px;
+    }
+
+    .support-wrapper h4 {
+        padding-bottom: 15px;
+        font: 20px/22px 'poppinsregular';
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .support-wrapper p {
+        padding-bottom: 22px;
+        font: 15px/21px 'poppinsregular';
+        text-align: center;
+        color: #C0C0C0;
+    }
+
+    .support a {
+        max-width: 110px;
+        font: 10px/14px 'poppinsregular';
+        border-radius: 12px;
+    }
+
+    .support a::before {
+        display: inline-block;
+        content: "";
+        width: 27px;
+        height: 27px;
+        background-color: #000000;
+        border-radius: 50%;
+        margin-right: 6px;
+    }
+
+    .footer {
+        padding-top: 40px;
+    }
+
+    .aperture-links-business-areas{
+        margin-left: 30px;
+    }
+
+    .aperture-links-pages {
+        margin-right: 30px;
+    }
+
+    .subscribe-wrapper {
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscribe-text {
+        margin-left: 30px;
+    }
+
+    .subscribe-form {
+        width: 258px;
+        height: 42px;
+        justify-content: space-around;
+        margin-left: 30px;
+    }
+
+    .subscribe-form input {
+        height: 18px;
+    }
+
+    .subscribe-form button {
+        margin: 6px 5px 9px 0;
+    }
+
+    .aperture-licensing-social p {
+        font: 400 10px/16px 'poppinsregular';
+    }
+
+    .aperture-licensing-social{
+        text-align: center;
+        padding: 20px 10px 0 10px;
+        margin: 0;
+    }
+
+    .aperture-social{
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .aperture-social a:nth-child(2) {
+        margin-left: 10px;
+        margin-right: 16px;
+    }
+
+    .aperture-social a img {
+        width: 15px;
+        height: 15px;
+    }
+
+
+}
