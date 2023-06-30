@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -9,12 +9,27 @@
     <link rel="icon" type="image/x-icon" href="images/aperture-logo.svg">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 
 
 </head>
 <body>
+
+<div id="dialog" title="Tell us about your experience">
+    <form name="experience" method="post" class="basic-dialog">
+        <label for="dialog"></label>
+        <input type="text" id="experience">
+        <button type="submit">
+        </button>
+    </form>
+    <div class="dialog-logo-aperture">
+        <img src="images/aperture-logo.svg" alt="image">
+    </div>
+</div>
+
 <header>
     <div class="container">
         <a href="#">
@@ -43,7 +58,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a id="opener">
                         Get template
                     </a>
                 </li>
@@ -202,6 +217,21 @@
             <h3>Trusted by your favourite companies</h3>
 
             <div class="flex-block owl-carousel">
+                <a href="#">
+                    <img src="images/HillsPlayes.svg" alt="HillsPlayes">
+                </a>
+                <a href="#">
+                    <img src="images/Riksgransen.svg" alt="Riksgransen">
+                </a>
+                <a href="#">
+                    <img src="images/StudioCai.svg" alt="StudioCai">
+                </a>
+                <a href="#">
+                    <img src="images/ChillIndustries.svg" alt="ChillIndustries">
+                </a>
+                <a href="#">
+                    <img src="images/Stockholm.svg" alt="Stockholm">
+                </a>
                 <a href="#">
                     <img src="images/HillsPlayes.svg" alt="HillsPlayes">
                 </a>
@@ -379,6 +409,7 @@
         integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
         crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>

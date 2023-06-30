@@ -523,7 +523,115 @@ header nav li:last-of-type a {
     width: 10px;
 }
 
-.owl-stage{
+.owl-stage {
     display: flex;
     align-items: center;
 }
+
+.clients .owl-item {
+    text-align: center;
+}
+
+.clients .owl-nav .owl-prev {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -36px;
+    top: 36px;
+    transform: rotate(90deg);
+
+}
+
+.clients .owl-nav .owl-prev:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-bottom: solid 48px transparent;
+    border-top: solid 48px white;
+    border-left: solid 48px transparent;
+    border-right: solid 48px transparent;
+    top: -49px;
+    left: -48px;
+}
+
+.clients .owl-nav .owl-next {
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -36px;
+    top: 36px;
+    transform: rotate(-90deg);
+
+}
+
+.clients .owl-nav .owl-next:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-bottom: solid 48px transparent;
+    border-top: solid 48px white;
+    border-left: solid 48px transparent;
+    border-right: solid 48px transparent;
+    top: -49px;
+    left: -48px;
+}
+
+.ui-widget.ui-widget-content {
+    width: 500px !important;
+    height: 250px !important;
+    background-color: black;
+    opacity: 85%;
+    border: none;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+    background-color: black;
+    border: none;
+    text-align: center;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    background-color: black;
+}
+
+.ui-widget-content, .ui-dialog .ui-dialog-title {
+    color: #FFFFFF;
+    font: 15px/20px 'poppinsregular';
+}
+
+.basic-dialog {
+    width: 460px;
+    max-height: 200px;
+    background: #21110a;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.basic-dialog input {
+    width: 376px;
+    height: 100px;
+    background: #696969;
+    border: none;
+    margin: 7px 6px 7px 7px;
+}
+
+.basic-dialog button {
+    width: 30px;
+    height: 30px;
+    background: #21110a;
+    margin: 11px 6px 11px 0;
+    border-radius: 50%;
+}
+
+.dialog-logo-aperture {
+    text-align: center;
+}
+
+.dialog-logo-aperture img {
+    width: 250px;
+}
+
